@@ -6,21 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>ROL Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Rôle Online</title>
 </head>
 
 <body>
-    <header>
+    <header class="text-center text-warning p-3">
         <h1>ROLE ONLINE</h1><br>
-        <h2>Association loi 1901</h2>
+        <h2 class="fs-5 pb-3">Association loi 1901</h2>
     </header>
-    <nav>
-        <a href="index.html">Accueil</a>
-        <a href="evenements.html">Événements</a>
+    <nav class="pb-4">
+        <ul class="nav nav-pills justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active bg-dark" aria-current="page" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="evenements.html">Événements</a>
+            </li>
+        </ul>
     </nav>
-    <main>
+    <main class="p-4">
         <h3>Qui sommes nous ?</h3>
-        <div>Le principal objectif associatif consiste à promouvoir le jeu de rôle auprès du grand public en proposant des
+        <p>Le principal objectif associatif consiste à promouvoir le jeu de rôle auprès du grand public en proposant des
         possibilités de jeu aux débutants comme aux joueurs confirmés. Nous souhaitons pour cela structurer une
         communauté de rôlistes intéressés pour parcourir ensemble des expériences vidéo-ludiques en immersion « RolePlay
         ».<br><br>
@@ -40,9 +47,9 @@
         support collectif pour la promotion du jeu de rôle et des serveurs de jeu.<br><br>
 
         L’association a également la possibilité de louer des locaux IRL, afin de permettre à tous ses membres de se
-        réunir durant des événements ponctuels.</div>
+        réunir durant des événements ponctuels.</p>
     </main>
-    <footer>
+    <footer class="bg-dark text-light p-3 sticky-bottom text-center">
         RôleOnline – Association de Jeu de Rôle © – 2023
     </footer>
 </body>
